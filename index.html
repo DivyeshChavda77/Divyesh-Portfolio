@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Divyesh Chavda | AI/ML & Data Science Portfolio</title>
+
+    <meta
+      name="description"
+      content="Explore Divyesh Chavda's portfolio featuring Machine Learning projects, Data Analytics dashboards, Python, SQL, and AI/ML skills."
+    />
+
+    <meta name="author" content="Divyesh Chavda" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Divyesh Chavda | Data Science & AI/ML" />
+    <meta
+      property="og:description"
+      content="Explore my Data Science, Machine Learning, and Analytics projects."
+    />
+    <meta property="og:image" content="https://divyesh.dev/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Divyesh Chavda | AI/ML Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Data Science, Machine Learning, and Analytics projects."
+    />
+    <meta name="twitter:image" content="https://divyesh.dev/og-image.png" />
+    <meta property="og:url" content="https://divyesh.dev/" />
+
+    <link rel="canonical" href="https://divyesh.dev/" />
+
+    <link rel="stylesheet" href="style.css" />
+    <noscript><style>.preloader{display:none!important}body.is-loading{overflow:auto!important}</style></noscript>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Technology brand icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+
+  <body class="is-loading">
+    <script>
+      /* Match the loading screen to the saved theme before first paint */
+      try {
+        if (localStorage.getItem("portfolio-theme") === "light")
+          document.body.classList.add("light-theme");
+      } catch (e) {}
+    </script>
+
+    <!-- ================= LOADING SCREEN ================= -->
+    <div class="preloader" id="preloader" role="status" aria-live="polite">
+      <div class="pl-glow" aria-hidden="true"></div>
+      <div class="pl-grid" aria-hidden="true"></div>
+
+      <div class="pl-core">
+        <div class="pl-orbit" aria-hidden="true">
+          <span class="pl-ring"></span>
+          <span class="pl-ring pl-ring-2"></span>
+          <i class="pl-dot"></i>
+          <i class="pl-dot pl-dot-2"></i>
+          <img src="favicon.png" alt="" />
+        </div>
+
+        <p class="pl-name">Divyesh Chavda</p>
+        <p class="pl-role">AI &amp; Data Science</p>
+
+        <div class="pl-bar" aria-hidden="true"><span class="pl-fill" id="plFill"></span></div>
+        <div class="pl-meta">
+          <span class="pl-status"><b>&gt;&gt;&gt;</b> <span id="plStatus">import pandas as pd</span></span>
+          <span class="pl-pct" id="plPct">0%</span>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="techCanvas" class="tech-canvas" aria-hidden="true"></canvas>
+    <div class="bg-floaters" aria-hidden="true">
+      <span style="--x: 6%; --d: 30s; --s: 0s; --del: -2s"
+        ><code>import pandas as pd</code></span
+      >
+      <span style="--x: 18%; --d: 38s; --s: 0s; --del: -14s"
+        ><code>SELECT * FROM data;</code></span
+      >
+      <span style="--x: 32%; --d: 34s; --s: 0s; --del: -8s"
+        ><code>model.fit(X, y)</code></span
+      >
+      <span style="--x: 46%; --d: 42s; --s: 0s; --del: -21s"
+        ><code>&lt;div class="app"&gt;</code></span
+      >
+      <span style="--x: 60%; --d: 33s; --s: 0s; --del: -5s"
+        ><code>df.describe()</code></span
+      >
+      <span style="--x: 72%; --d: 40s; --s: 0s; --del: -17s"
+        ><code>.glow { color: cyan; }</code></span
+      >
+      <span style="--x: 84%; --d: 36s; --s: 0s; --del: -11s"
+        ><code>const ai = () =&gt; {}</code></span
+      >
+      <span style="--x: 92%; --d: 44s; --s: 0s; --del: -26s"
+        ><code>np.mean(y_pred)</code></span
+      >
+      <i class="fa-brands fa-python" style="--x: 12%; --d: 46s; --del: -6s"></i>
+      <i
+        class="fa-brands fa-github"
+        style="--x: 38%; --d: 52s; --del: -20s"
+      ></i>
+      <i
+        class="fa-solid fa-database"
+        style="--x: 66%; --d: 48s; --del: -12s"
+      ></i>
+      <i
+        class="fa-solid fa-terminal"
+        style="--x: 80%; --d: 55s; --del: -30s"
+      ></i>
+      <i class="fa-solid fa-brain" style="--x: 52%; --d: 50s; --del: -3s"></i>
+    </div>
+    <!-- ================= NAVBAR ================= -->
+    <header class="header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="#home" class="logo" aria-label="Divyesh - home"
+          ><img src="favicon.png" alt=""
+        /></a>
+
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="#home" class="nav-link active" data-label="Home"
+              ><i class="fa-solid fa-house" aria-hidden="true"></i
+              ><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-link" data-label="About"
+              ><i class="fa-solid fa-user" aria-hidden="true"></i
+              ><span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="nav-link" data-label="Skills"
+              ><i class="fa-solid fa-code" aria-hidden="true"></i
+              ><span>Skills</span></a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="nav-link" data-label="Projects"
+              ><i class="fa-solid fa-folder-open" aria-hidden="true"></i
+              ><span>Projects</span></a
+            >
+          </li>
+          <li>
+            <a href="#education" class="nav-link" data-label="Education"
+              ><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i
+              ><span>Education</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link" data-label="Contact"
+              ><i class="fa-solid fa-envelope" aria-hidden="true"></i
+              ><span>Contact</span></a
+            >
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark and light theme"
+          >
+            <i class="fa-solid fa-sun"></i>
+          </button>
+
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= HOME / HERO ================= -->
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <p class="eyebrow">
+              <span class="status-dot"></span>
+               AI & DATA SCIENCE ENTHUSIAST
+            </p>
+
+            <h1>Hi, I'm <span class="gradient-text">Divyesh Chavda</span></h1>
+
+            <h2 class="hero-subtitle">
+              I'm interested in
+              <span class="typing-text" id="typingText">
+                Artificial Intelligence
+              </span>
+              <span class="typing-cursor">|</span>
+            </h2>
+
+            <p class="hero-description">
+              I build intelligent solutions using Python, Machine Learning, and
+              Data Analytics. Passionate about solving real-world problems
+              through data-driven innovation.
+            </p>
+
+            <div class="hero-buttons">
+              <a
+                href="resume.pdf"
+                download="Divyesh_Chavda_Resume.pdf"
+                class="btn btn-primary"
+              >
+                <i class="fas fa-download"></i>
+                Download Resume
+              </a>
+
+              <a href="#projects" class="btn btn-outline">
+                Explore My Work
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://github.com/DivyeshChavda77"
+                aria-label="GitHub"
+                title="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/gecr-ai-230200143010-/"
+                aria-label="LinkedIn"
+                title="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a
+                href="mailto:divyeshchavda707@gmail.com"
+                aria-label="Email"
+                title="Email"
+                target="_blank"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-glow"></div>
+
+            <div class="code-card">
+              <div class="code-card-header">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>about_me.py</p>
+              </div>
+
+              <div class="code-content">
+                <p>
+                  <span class="code-purple">class</span>
+                  <span class="code-yellow">Developer</span>:
+                </p>
+                <p class="indent">
+                  name = <span class="code-green">"Divyesh"</span>
+                </p>
+                <p class="indent">
+                  skills =
+                  <span class="code-green">["Python", "SQL", "ML"]</span>
+                </p>
+                <p class="indent">
+                  passion = <span class="code-green">"Learning"</span>
+                </p>
+                <br />
+                <p>
+                  <span class="code-purple">def</span>
+                  <span class="code-yellow">build</span>(self):
+                </p>
+                <p class="indent">
+                  <span class="code-purple">return</span>
+                  <span class="code-green">"Keep Growing!"</span>
+                </p>
+                <span class="code-blink">_</span>
+              </div>
+            </div>
+
+            <div class="floating-tag tag-one">
+              <i class="fa-brands fa-python"></i> Python
+            </div>
+
+            <div class="floating-tag tag-two">
+              <i class="fa-solid fa-brain"></i> AI / ML
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+      <section class="section section-alt reveal-section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2>About <span class="gradient-text">Me</span></h2>
+            <p>
+              Passionate about Data Science, Machine Learning, and turning data
+              into meaningful insights.
+            </p>
+          </div>
+
+          <div class="about-content">
+            <div class="about-card">
+              <i class="fa-solid fa-user-graduate"></i>
+              <h3>Who I Am</h3>
+              <p>
+                I am an AI & Data Science student at GEC Rajkot, passionate
+                about Machine Learning, data analysis, and building practical
+                technology solutions.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>What I Do</h3>
+              <p>
+                I use Python, SQL, and Machine Learning to analyze data, build
+                predictive models, and develop applications using Flask and
+                Streamlit.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <i class="fa-solid fa-bullseye"></i>
+              <h3>My Goal</h3>
+              <p>
+                I aim to begin my career in Data Science or Machine Learning,
+                applying my skills to real-world problems while growing through
+                industry experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SKILLS ================= -->
+      <section class="section reveal-section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">WHAT I WORK WITH</p>
+            <h2>My <span class="gradient-text">Skills</span></h2>
+            <p>Technologies I use across data science and machine learning.</p>
+          </div>
+
+          <div class="skills-container" id="skillsContainer"></div>
+        </div>
+      </section>
+
+      <!-- ================= PROJECTS ================= -->
+      <section class="section section-alt reveal-section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">MY RECENT WORK</p>
+            <h2>Featured <span class="gradient-text">Projects</span></h2>
+            <p>Explore projects that I have worked on.</p>
+          </div>
+          <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+      </section>
+
+      <!-- ================= EDUCATION ================= -->
+      <section class="section reveal-section" id="education">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">MY BACKGROUND</p>
+            <h2>Education & <span class="gradient-text">Learning</span></h2>
+          </div>
+
+          <div class="education-container" id="educationContainer"></div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+      <section class="section section-alt reveal-section" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Contact <span class="gradient-text">Me</span></h2>
+            <p>
+              Have an opportunity or want to collaborate? Feel free to connect
+              with me.
+            </p>
+          </div>
+          
+<!-- HIRING CTA -->
+<div class="hiring-cta">
+    <span class="hiring-badge">
+        <span class="status-dot"></span>
+        OPEN TO OPPORTUNITIES
+    </span>
+
+    <h3>Let's Work Together</h3>
+
+    <p>
+        I'm open to Data Science, Python, and AI/ML
+        opportunities where I can contribute my skills
+        and grow through real-world experience.
+    </p>
+
+    <a href="mailto:divyeshchavda707@gmail.com?subject=Job%20Opportunity"
+       class="btn btn-primary">
+        <i class="fa-solid fa-paper-plane"></i>
+        Contact Me
+    </a>
+</div>
+
+          <div class="contact-content">
+            <a href="mailto:divyeshchavda707@gmail.com" class="contact-card">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email Me</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/gecr-ai-230200143010-/"
+              class="contact-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn Profile</span>
+            </a>
+
+            <a
+              href="https://github.com/DivyeshChavda77"
+              class="contact-card"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub Profile</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>
+          &copy; <span id="currentYear"></span>
+          DivyeshChavda. All rights reserved.
+        </p>
+        <a href="#home" class="back-to-top" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
